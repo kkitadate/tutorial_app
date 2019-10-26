@@ -13,6 +13,30 @@
 ## 使い方
 
 このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
+
+※Homebrewでのインストールが便利です。
+http://brew.sh/index_ja.html
+
+rbenvをインストール
+
+```
+$ brew install rbenv ruby-build
+```
+※参考：https://qiita.com/Alex_mht_code/items/d2db2eba17830e36a5f1
+
+rubyをインストールし、利用するバージョンを指定
+
+```
+$ rbenv install 2.6.4
+$ rbenv local 2.6.4
+```
+
+bundlerをインストール
+
+```
+$ gem install bundler
+```
+
 その後、次のコマンドで必要になる RubyGems をインストールします。
 
 ```
