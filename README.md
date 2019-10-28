@@ -63,3 +63,11 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+## Heroku利用の準備
+
+アカウントを持っていない方はこちらからサインアップ
+https://signup.heroku.com/
+
+Heroku CLIのダウンロード
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install
